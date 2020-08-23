@@ -1,5 +1,5 @@
 def imageName = 'geeklearninpath/movies-loader'
-def registry = 'https://registry.slowcoder.com'
+def registry = 'https://registry.hub.docker.com/v1/'
 
 node('workers'){
     stage('Checkout'){
